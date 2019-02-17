@@ -1,10 +1,4 @@
-import time
-
-def sum(a,b):
-    return a+b
-
-a = int(input("Enter first number:"))
-b = int(input("Enter second number:"))
-
-print("المجموع", sum(a,b))
-
+a, b = 0,1
+while a < 10:
+    print(a)
+    a, b = b, a+b
