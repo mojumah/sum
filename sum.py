@@ -4,7 +4,7 @@ import time
 def sum(a,b):
     return a+b
 
-a = 1
+a = 2
 b = 1
 
 print("المجموع", sum(a,b))
